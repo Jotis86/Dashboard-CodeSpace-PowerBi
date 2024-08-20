@@ -1,48 +1,46 @@
-#  Dashboard de Ventas en Power BI
+#  Sales Dashboard in Power BI
 
-¡Bienvenido al repositorio del **Dashboard de Ventas** creado con Power BI! Este proyecto tiene como objetivo proporcionar un análisis interactivo y detallado de las métricas clave de ventas para apoyar la toma de decisiones estratégicas.
+Welcome to the **Sales Dashboard** repository created with Power BI! This project aims to provide an interactive and detailed analysis of key sales metrics to support strategic decision-making.
 
-## 🚀 Descripción
+## 🚀 Description
 
-Este tablero incluye:
-- 📈 **Visualizaciones interactivas**: Gráficos y tablas dinámicas para explorar los datos.
-- 📊 **Métricas clave**: Análisis de KPIs importantes como ventas, productos, y ventas por localización.
-- 📅 **Análisis temporal**: Tendencias a lo largo del tiempo para identificar patrones y oportunidades.
-- 🗂️ **Cuatro pestañas**: 
-  - **Resumen**: Vista general de todas las métricas.
-  - **Productos**: Seguimiento y análisis de los diferentes productos.
-  - **Localización**: Análisis de ventas según la ubicación geográfica.
-  - **Locales**: Vista general de todas las ventas según el canal de venta.
+This dashboard includes:
+- 📈 **Interactive Visualizations**: Dynamic charts and tables to explore the data.
+- 📊 **Key Metrics**: Analysis of important KPIs such as sales, products, and sales by location.
+- 📅 **Temporal Analysis**: Trends over time to identify patterns and opportunities.
+- 🗂️ **Four Tabs**: 
+  - **Summary**: Overview of all metrics.
+  - **Products**: Tracking and analysis of different products.
+  - **Location**: Sales analysis by geographic location.
+  - **Channels**: Overview of all sales by sales channel.
 
-## 🔄 Proceso ETL
+## 🔄 ETL Process
 
-Este proyecto incluye un proceso completo de **ETL (Extracción, Transformación y Carga)**:
-- **Extracción**: Datos obtenidos de archivos CSV.
-- **Transformación**: 
-  - **Combinación de tablas**: Uso de Power Query para combinar y relacionar tablas de datos.
-  - **Limpieza de datos**: Eliminación de duplicados, tratamiento de valores nulos y normalización de datos.
-  - **Enriquecimiento de datos**: Agregación de columnas calculadas y transformación de datos para mejorar el análisis.
-- **Carga**: Integración de los datos transformados en Power BI para su análisis y visualización.
+This project includes a complete **ETL (Extract, Transform, Load)** process:
+- **Extraction**: Data obtained from CSV files.
+- **Transformation**: 
+  - **Table Combination**: Using Power Query to combine and relate data tables.
+  - **Data Cleaning**: Removing duplicates, handling null values, and normalizing data.
+  - **Data Enrichment**: Adding calculated columns and transforming data to enhance analysis.
+- **Loading**: Integrating the transformed data into Power BI for analysis and visualization.
 
-## 🛠️ Métricas DAX
+## 🛠️ DAX Metrics
 
-Se han creado diversas métricas utilizando **DAX (Data Analysis Expressions)** para proporcionar análisis detallados y personalizados:
-- **Cálculo de KPIs**: Métricas como el total de ventas, ventas por producto, y ventas por localización.
-- **Medidas calculadas**: Creación de medidas personalizadas para análisis específicos.
-- **Columnas calculadas**: Agregación de columnas adicionales para enriquecer los datos.
-- **Filtrado y segmentación**: Uso de DAX para aplicar filtros y segmentaciones dinámicas en los datos.
+Various metrics have been created using **DAX (Data Analysis Expressions)** to provide detailed and customized analysis:
+- **KPI Calculation**: Metrics such as total sales, sales by product, and sales by location.
+- **Calculated Measures**: Creating custom measures for specific analyses.
+- **Calculated Columns**: Adding additional columns to enrich the data.
+- **Filtering and Segmentation**: Using DAX to apply dynamic filters and segmentations on the data.
 
-## 📂 Estructura del Proyecto
+## 📂 Project Structure
 
-- `Ejercicio CodeSpace.pbix`: Archivo principal del dashboard de Power BI.
-- `Imágenes/`: Capturas de pantalla del dashboard.
+- `Ejercicio CodeSpace.pbix`: Main Power BI dashboard file.
+- `Images/`: Screenshots of the dashboard.
 
-## 🛠️ Requisitos
+## 🛠️ Requirements
 
 - Power BI Desktop
 
-## 📧 Contacto
+## 📧 Contact
 
-Para cualquier consulta, puedes contactarme en jotaduranbon@gmail.com.
-
-
+For any inquiries, you can contact me at jotaduranbon@gmail.com
